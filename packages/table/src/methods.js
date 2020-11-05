@@ -3914,9 +3914,21 @@ const Methods = {
       return bodyElem.$el.querySelector(`.vxe-body--row[data-rowid="${rowid}"] .${column.id}`)
     }
     return null
-  }
+  },
   /*************************
    * Publish methods
+   *************************/
+
+   /*************************
+   * 自定义方法
+   *************************/
+  // 设置表格高度
+  setHeight(_height){
+    this.height = _height
+  }
+
+  /*************************
+   * 自定义方法
    *************************/
 }
 
