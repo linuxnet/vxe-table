@@ -3919,11 +3919,11 @@ const Methods = {
    * Publish methods
    *************************/
 
-   /*************************
+  /*************************
    * 自定义方法
    *************************/
   // 设置表格高度
-  setHeight(_height){
+  setHeightDc (_height) {
     this.height = _height
   }
 
